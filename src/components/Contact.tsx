@@ -35,19 +35,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "john.doe@example.com",
-      link: "mailto:john.doe@example.com"
+      value: "jhansijanu22k@gmail.com",
+      link: "mailto:jhansijanu22k@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "+91 9989769853",
+      link: "tel:+9989769853"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Andhrapradesh, India",
       link: "#"
     }
   ];
@@ -58,9 +58,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Have a project in mind or want to collaborate? I'd love to hear from you!
-          </p>
+          
         </div>
         
         <div className="grid md:grid-cols-2 gap-12">
@@ -114,7 +112,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    placeholder="your.email@example.com"
+                    placeholder="Your email address"
                   />
                 </div>
                 
@@ -127,7 +125,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={5}
-                    placeholder="Tell me about your project..."
+                    placeholder="Your message"
                     className="w-full px-3 py-2 border border-input rounded-md bg-background text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                   />
                 </div>

@@ -47,22 +47,21 @@ const About = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                I'm a passionate full-stack developer with over 3 years of experience 
-                creating web applications that solve real-world problems. My journey 
-                started with curiosity about how websites work, and it has evolved into 
-                a love for crafting elegant solutions with code.
+              I'm an aspiring full-stack developer passionate about creating web applications that solve real-world problems.
+              My journey began with a curiosity about how websites work and grew into a strong interest in building efficient,
+               user-friendly solutions using the MERN stack and Data Structures & Algorithms.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                I specialize in React, Node.js, and modern web technologies. When I'm 
-                not coding, you'll find me exploring new frameworks, contributing to 
-                open source projects, or mentoring aspiring developers.
+                I specialize in MongoDB, Express.js, React.js, Node.js, and modern web technologies. When I'm 
+                not coding, you'll find me exploring new frameworks and  contributing to 
+                open source projects.
               </p>
             </div>
             
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-gray-800">Core Technologies</h3>
               <div className="flex flex-wrap gap-3">
-                {["JavaScript", "TypeScript", "React", "Node.js", "MongoDB", "Python"].map((tech) => (
+                {["JavaScript", "C++", "React", "Node.js", "MongoDB", "Python"].map((tech) => (
                   <span key={tech} className="px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-default">
                     {tech}
                   </span>
